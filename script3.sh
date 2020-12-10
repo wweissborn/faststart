@@ -14,6 +14,7 @@ kubectl get nodes
 sudo usermod -aG docker ubuntu
 newgrp docker
 docker info
+wget https://bit.ly/3kGJXFk -O cn.sh
 kubectl get nodes
 sudo apt-get install -y bash-completion
 echo 'source <(kubectl completion bash)' >> ~/.bashrc
